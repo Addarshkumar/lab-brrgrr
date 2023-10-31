@@ -162,7 +162,6 @@ function renderIngredientsBoard(){
 var priceElement = document.querySelector(".price-details");
 
 function renderPrice(){
-  // varwho price = wholeWheatBun;
   let price = 2 * wholeWheatBun;
   for(let i in state){
     if (state[i]){
